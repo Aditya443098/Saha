@@ -1,0 +1,13 @@
+{
+  "maintenance": false,
+
+  "settings": {
+    "theme": "dark",
+    "sound": true
+  },
+
+  "update": {
+    "title": "Update Game",
+    "message": "Game siap dimainkan"
+  }
+}
