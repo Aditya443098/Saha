@@ -1,23 +1,23 @@
 {
-  "maintenance": false,
-  "game_enabled": true,
+  "theme": "hijau",
   
-  "ads": {
-    "enabled": true,
-    "type": "banner",
-    "message": "Update akan tiba",
-    "duration": 5
+  "colors": {
+    "primary": "#2E7D32",
+    "secondary": "#4CAF50", 
+    "background": "#1B5E20",
+    "text": "#FFFFFF",
+    "button": "#388E3C",
+    "cell": "#81C784"
   },
   
   "settings": {
-    "theme": "dark",
     "sound": true,
-    "bot_levels": ["mudah", "normal", "sulit"],
-    "board_sizes": [3, 4]
+    "board_sizes": [3, 4],
+    "bot_levels": ["mudah", "normal", "sulit"]
   },
   
-  "update": {
-    "title": "Info Update",
-    "description": "Iklan: Update akan tiba"
+  "game_info": {
+    "name": "XO Game",
+    "version": "2.0"
   }
 }
