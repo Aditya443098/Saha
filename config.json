@@ -1,16 +1,51 @@
+
 {
-  "website_theme": "green",
+  "game_name": "XO Game",
+  "version": "3.0",
   
-  "color_scheme": {
-    "main_color": "#27ae60",
-    "secondary_color": "#2ecc71",
-    "background_color": "#1e8449",
-    "text_color": "#ffffff"
+  "theme": {
+    "background": "#B71C1C",
+    "primary": "#D32F2F",
+    "secondary": "#F44336",
+    "text": "#FFFFFF",
+    "cell_bg": "rgba(255, 255, 255, 0.1)",
+    "cell_border": "rgba(255, 255, 255, 0.2)",
+    "button_bg": "#D32F2F",
+    "button_hover": "#C62828",
+    "x_color": "#FF9800",
+    "o_color": "#2196F3",
+    "win_color": "#FFD700"
   },
   
-  "game_config": {
+  "settings": {
+    "board_sizes": [3, 4],
+    "bot_levels": ["mudah", "normal", "sulit"],
     "sound": true,
     "default_board": 3,
-    "difficulty": ["easy", "medium", "hard"]
+    "default_difficulty": "normal"
+  },
+  
+  "features": {
+    "sound_effects": true,
+    "animations": true,
+    "score_tracker": true,
+    "multiplayer": false,
+    "leaderboard": false
+  },
+  
+  "update": {
+    "enabled": true,
+    "title": "Tema Baru!",
+    "message": "Sekarang dengan tema merah yang lebih segar!"
+  },
+  
+  "maintenance": {
+    "enabled": false,
+    "message": "Game sedang dalam perawatan."
+  },
+  
+  "bug_report": {
+    "enabled": true,
+    "email": "bug@xogame.com"
   }
 }
