@@ -1,22 +1,23 @@
-
 {
   "maintenance": false,
   "game_enabled": true,
   
   "ads": {
     "enabled": true,
+    "type": "banner",
     "message": "Update akan tiba",
-    "show_seconds": 5
-  },
-  
-  "update": {
-    "title": "Info Update",
-    "message": "Iklan pendek: Update akan tiba",
-    "version": "1.0.0"
+    "duration": 5
   },
   
   "settings": {
     "theme": "dark",
-    "sound": true
+    "sound": true,
+    "bot_levels": ["mudah", "normal", "sulit"],
+    "board_sizes": [3, 4]
+  },
+  
+  "update": {
+    "title": "Info Update",
+    "description": "Iklan: Update akan tiba"
   }
 }
