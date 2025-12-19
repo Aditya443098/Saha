@@ -1,13 +1,22 @@
+
 {
   "maintenance": false,
-
+  "game_enabled": true,
+  
+  "ads": {
+    "enabled": true,
+    "message": "Update akan tiba",
+    "show_seconds": 5
+  },
+  
+  "update": {
+    "title": "Info Update",
+    "message": "Iklan pendek: Update akan tiba",
+    "version": "1.0.0"
+  },
+  
   "settings": {
     "theme": "dark",
     "sound": true
-  },
-
-  "update": {
-    "title": "Update Game",
-    "message": "Game siap dimainkan"
   }
 }
