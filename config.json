@@ -1,24 +1,51 @@
 {
+  "game_name": "XO Game Ultimate",
+  "version": "4.0",
+  
   "theme_settings": {
-    "mode": "dark",
-    "primary_color": "#1E1E1E",
-    "secondary_color": "#2D2D2D",
-    "background_color": "#121212",
-    "text_color": "#FFFFFF",
-    "button_color": "#BB86FC",
-    "cell_color": "#2D2D2D",
+    "background": "#121212",
+    "primary": "#1E1E1E",
+    "secondary": "#2D2D2D",
+    "text": "#FFFFFF",
+    "accent": "#4CAF50",
     "x_color": "#FF5722",
     "o_color": "#2196F3"
   },
   
-  "game_settings": {
-    "board_sizes": [3, 4],
-    "difficulty": ["mudah", "normal", "sulit"],
+  "settings": {
+    "board_sizes": [3, 4, 5],
+    "bot_levels": ["mudah", "normal", "sulit", "expert"],
     "sound": true
   },
   
   "features": {
+    "sound_effects": true,
+    "animations": true,
     "dark_mode": true,
-    "sound_effects": true
+    "timer": false,
+    "multiplayer": false,
+    "leaderboard": true,
+    "achievements": false
+  },
+  
+  "ads": {
+    "enabled": true,
+    "message": "🔥 Update besar akan datang!",
+    "color": "#2196F3",
+    "duration": 10
+  },
+  
+  "update": {
+    "title": "🎉 Update Besar!",
+    "message": "Sistem konfigurasi dinamis sudah aktif!",
+    "notify": true
+  },
+  
+  "maintenance": false,
+  "maintenance_message": "Game sedang update fitur baru...",
+  
+  "bug_report": {
+    "enabled": true,
+    "email": "support@xogame.com"
   }
 }
