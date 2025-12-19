@@ -1,62 +1,23 @@
 {
-  "game_name": "XO Game",
-  "version": "3.5",
+  "theme": "dark",
   
-  "theme": {
-    "mode": "dark",  // "dark" atau "light"
-    
-    "dark_mode": {
-      "background": "#1A1A2E",
-      "primary": "#16213E",
-      "secondary": "#0F3460",
-      "text": "#E6E6E6",
-      "cell_bg": "rgba(255, 255, 255, 0.05)",
-      "cell_border": "rgba(255, 255, 255, 0.1)",
-      "button_bg": "#0F3460",
-      "button_hover": "#16213E",
-      "x_color": "#4FC3F7",
-      "o_color": "#FF8A65"
-    },
-    
-    "light_mode": {
-      "background": "#F5F7FA",
-      "primary": "#E4E7EB",
-      "secondary": "#CBD2D9",
-      "text": "#1F2933",
-      "cell_bg": "rgba(255, 255, 255, 0.8)",
-      "cell_border": "#CBD2D9",
-      "button_bg": "#3B82F6",
-      "button_hover": "#2563EB",
-      "x_color": "#3B82F6",
-      "o_color": "#EF4444"
-    }
+  "colors_dark": {
+    "background": "#121212",
+    "primary": "#1E1E1E",
+    "secondary": "#2D2D2D",
+    "text": "#FFFFFF",
+    "button": "#BB86FC",
+    "cell": "#2D2D2D"
   },
   
-  "settings": {
-    "board_sizes": [3, 4],
-    "bot_levels": ["mudah", "normal", "sulit"],
-    "sound": true,
-    "auto_dark_mode": true,  // auto switch based on time
-    "dark_mode_hours": "18:00-06:00"  // otomatis gelap jam 6pm-6am
+  "colors_light": {
+    "background": "#FFFFFF",
+    "primary": "#F5F5F5",
+    "secondary": "#E0E0E0",
+    "text": "#000000",
+    "button": "#6200EE",
+    "cell": "#F5F5F5"
   },
   
-  "features": {
-    "dark_mode": true,
-    "auto_theme": true,
-    "theme_switch": true,
-    "sound_effects": true,
-    "animations": true
-  },
-  
-  "update": {
-    "enabled": true,
-    "title": "🎨 Fitur Baru!",
-    "message": "Mode Gelap/Terang sudah tersedia!"
-  },
-  
-  "maintenance": false,
-  "bug_report": {
-    "enabled": true,
-    "email": "risksadit@gmail.com"
-  }
+  "dark_mode_enabled": true
 }
